@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <form>
+                <h2><mark>Satifaction Survey 2023</mark></h2>
+                <p><b>Select Option form:</b></p>
+                <p><label for="browser"></label>
+                    <select name="browser" id="browser">
+                    <option value="firefox">Mozilla Firefox</option>
+                    <option value="chrome">Google Chrome</option>
+                    <option value="opera">Opera</option>
+                    <option value="edge">Microsoft Edge</option>
+                    </select>
+                </p>
+                <p><b>Checkbox form:</b></p>
+                <p> 
+                    <input type="checkbox" id="browser-firefox" name="browser" value="firefox" checked>
+                  <label for="browser-firefox">Mozilla Firefox</label>
+                </p>
+                
+                <p>
+                    <input type="checkbox" id="browser-chrome" name="browser" value="chrome">
+                  <label for="browser-chrome">Google Chrome</label>
+                </p>
+                
+                <p>
+                    <input type="checkbox" id="browser-opera" name="browser" value="opera">
+                  <label for="browser-opera">Opera</label>
+                </p>
+                
+                <p>
+                    <input type="checkbox" id="browser-edge" name="browser" value="edge">
+                  <label for="browser-edge">Microsoft Edge</label>
+                </p>
+
+                <p><b>Radio form:</b></p>
+                <p>
+                    <input type="radio" id="browser-firefox" name="browser" value="firefox" checked>
+                <label for="browser-firefox">Mozilla Firefox</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="browser-chrome" name="browser" value="chrome">
+                <label for="browser-chrome">Google Chrome</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="browser-opera" name="browser" value="opera">
+                <label for="browser-opera">Opera</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="browser-edge" name="browser" value="edge">
+                <label for="browser-edge">Microsoft Edge</label>
+                </p>
+                <p>
+                    <label for="upload"><b>Upload your profile picture:</b></label>
+                    <br>
+                    <input type="file" id="upload" name="upload">
+                </p>
+                <p><b>Address with placeholder:</b> 
+                    <br>
+                    <input type="text" name="address" id="address" placeholder="e.g. 41 John St., Upper Suite 1"></p>
+                <p> 
+                    <label for="comment"><b>Type your comment here - Textarea:</b></label> <br>
+
+                    <textarea id="comment" name="comment" rows="10" cols="50">
+                    My multi-line, plain-text comment.
+                    </textarea>
+                    
+                </p>
+                    <input type="submit" value="Submit form">
+                    <input type="reset" value="Clear form">
+            </form>
+        </body>
+    </head>
+</html>
